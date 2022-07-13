@@ -124,3 +124,19 @@ input[type="submit"]:hover{
         width: 18rem;
     }
 }
+
+/* For larger devices */
+@media only screen and (min-width: 1500px){
+    input[type="text"]{
+        width: 47rem;
+        font-size: 28px;
+    }
+    input[type="submit"]{
+        font-size: 20px;
+    }
+    .weather-card{
+        width: 53.5rem;
+        font-size: 125%;
+        height: 25rem;
+    }
+}
