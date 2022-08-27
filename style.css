@@ -11,7 +11,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #1A1A2E;
+    /* background-color: #1A1A2E; */
+    background-image: linear-gradient(rgba(4, 4, 5, 0.859), rgba(26, 26, 46, 0.854)), url("images/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
 }
 .flex-box{
@@ -39,8 +42,8 @@ input[type="text"]{
 }
 input[type="submit"]{
     height: 2.7rem;
-    min-width: 5.5rem;
-    background-color: #E94560;
+    padding: 0 13px;
+    background-color: #262a34;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -48,7 +51,7 @@ input[type="submit"]{
     transition: 0.2s ease-in-out;
 }
 input[type="submit"]:hover{
-    color: #E94560;
+    color: #262a34;
     background: #fff;
 }
 ::placeholder{
@@ -66,8 +69,12 @@ input[type="submit"]:hover{
 .icon-side{
     width: 50%;
     height: 100%;
-    /* background-color: #F87474; */
-    background-color: #fba626;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.099);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .details-side{
     width: 50%;
