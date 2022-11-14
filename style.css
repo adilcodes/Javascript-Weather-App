@@ -12,7 +12,8 @@ body{
     align-items: center;
     min-height: 100vh;
     /* background-color: #1A1A2E; */
-    background-image: linear-gradient(rgba(4, 4, 5, 0.859), rgba(26, 26, 46, 0.854)), url("images/bg.jpg");
+    /* background-image: linear-gradient(rgba(4, 4, 5, 0.859), rgba(26, 26, 46, 0.854)), url("images/bg.jpg"); */
+    background-image: linear-gradient(rgba(42, 40, 40, 0.673), rgba(0, 0, 0, 0.798)), url("images/bg.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
